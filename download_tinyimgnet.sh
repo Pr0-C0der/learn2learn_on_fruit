@@ -6,4 +6,6 @@ echo "Last few steps..."
 rm -r ./tiny-imagenet-200/test/*
 python3 val_data_format.py
 find . -name "*.txt" -delete
+python3 move_folder.py
+python3 img_resizer.py
 
