@@ -209,3 +209,5 @@ for params in param_grid:
         f.write('\n'.join(map(str, eval_task_accuracies)) + '\n')
         f.write("Training Losses:\n")
         f.write('\n'.join(map(str, train_losses)) + '\n')
+
+    print("DONE")
